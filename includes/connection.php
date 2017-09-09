@@ -2,7 +2,7 @@
 $server = 'localhost';
 $db_username = 'root';
 $db_password = 'root';
-$db = 'portfolio';
+$db = 'jobs';
 
 $conn = mysqli_connect($server, $db_username, $db_password, $db);
 

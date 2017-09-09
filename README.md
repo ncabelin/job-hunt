@@ -23,10 +23,11 @@ Job
 |__ company_name VARCHAR
 |__ company_site
 |__ content TEXT
+|__ cover_letter TEXT
 |__ job_site FOREIGN KEY
 |__ applied_date
 |__ created_date
-|__ status --> NO RESPONSE, CALLED BACK, INTERVIEWED, ACCEPTED
+|__ status --> (N)NO RESPONSE, (C)CALLED BACK, (I)INTERVIEWED, (A)ACCEPTED, (R)REJECTED
 
 ```
 
